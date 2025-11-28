@@ -4,7 +4,7 @@ metadata:
   name: Services
 spec:
   selector:
-  - name: eshwar
+    name: eshwar
     surname: kodavali
     age: "21"
   ports:
