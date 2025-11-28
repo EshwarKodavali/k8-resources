@@ -13,4 +13,4 @@ spec:
     - protocol: TCP
       port: 80 # service port
       targetPort: 80 # container port
-      nodePort: 3100
+      nodePort: 31000
