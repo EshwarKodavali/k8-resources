@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: Services
+  name: nginx
 spec:
   selector:
-    name: eshwar
-    surname: kodavali
-    age: "21"
+    project: roboshop
+    component: frontend
+    environment: dev
   ports:
     - protocol: TCP
       port: 80 # service port
